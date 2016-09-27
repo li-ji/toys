@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[landscape]{geometry}
+\pagestyle{empty}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\parindent}{0cm}
+\begin{document}
+\[
+\left( \begin{array}{ccccc}
+ R_1^{-1} & 0 & 0 & -1 & 0 \\
+0 &  R_2^{-1}+R_3^{-1} & -R_2^{-1} & 1 & 0 \\
+0 & -R_2^{-1} &  R_2^{-1} & 0 & 1 \\
+-1 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0
+\end{array} \right)
+\left( \begin{array}{c}
+V_{v_a} \\
+V_{v_b} \\
+V_{v_c} \\
+I_{(V_1)} \\
+I_{(V_2)}
+\end{array} \right)
+=\left( \begin{array}{c}
+0 \\
+0 \\
+0 \\
+ V_1 \\
+ V_2
+\end{array} \right)
+\]
+\end{document}

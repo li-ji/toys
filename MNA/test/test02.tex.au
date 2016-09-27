@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[landscape]{geometry}
+\pagestyle{empty}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\parindent}{0cm}
+\begin{document}
+\[
+\left( \begin{array}{cccccc}
+ R_2^{-1} & -R_2^{-1} & 0 & 0 & 0 & 1 \\
+-R_2^{-1} &  s*C_4+R_2^{-1}+R_3^{-1} & -R_3^{-1} & -s*C_4 & 0 & 0 \\
+0 & -R_3^{-1} &  s*C_5+R_3^{-1} & 0 & 0 & 0 \\
+0 & -s*C_4 & 0 &  s*C_4 & 1 & 0 \\
+0 & 0 & -E_U & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 & 0 & 0
+\end{array} \right)
+\left( \begin{array}{c}
+V_{1} \\
+V_{2} \\
+V_{3} \\
+V_{4} \\
+I_{(E_U)} \\
+I_{(V_1)}
+\end{array} \right)
+=\left( \begin{array}{c}
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+ V_1
+\end{array} \right)
+\]
+\end{document}
